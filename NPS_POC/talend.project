@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_JVFsgcX2EeiddtWt-bq5-A" label="NPS_POC" description="Snowflake and Talend PoC" language="java" technicalLabel="NPS_POC" author="_JVFsgsX2EeiddtWt-bq5-A" productVersion="Talend Cloud Data Management Platform-7.0.1.20180712_0921-patch" url="{&quot;location&quot;:&quot;https://github.com/SpeakAnalytics/nps_poc.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" bigData="false"/>
+  <TalendProperties:User xmi:id="_JVFsgsX2EeiddtWt-bq5-A" login="amcguinness@eval11312.talend.com" firstName="Adam" lastName="Mcguinness" type="DQ"/>
+</xmi:XMI>
