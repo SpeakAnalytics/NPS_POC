@@ -10,6 +10,38 @@
   <url>http://www.talend.org/</url>
   <modules>
     <module>code/routines</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_3_historicstaging_job_loop_0.1</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_2_staging_job_loop_0.1</module>
+    <module>jobs/process/A8_2_STG/stg_sql_data_warehouse_delta_insert_0.1</module>
+    <module>jobs/process/WIP/j_001_createdatamodel_0.1</module>
+    <module>jobs/process/A8_1_LND/lnd_snowflake_from_internal_s3_0.1</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_43_rdv_lnk_job_loop_0.1</module>
+    <module>jobs/process/A8_4_INT/A8_42_SAT/sat_snowflake_insert_only_0.1</module>
+    <module>jobs/process/A8_4_INT/A8_41_HUB/hub_snowflake_0.1</module>
+    <module>jobs/joblets/Acceler8/accelr8_closemoduleid_0.1</module>
+    <module>jobs/process/A8_2_STG/stg_snowflake_delta_0.1</module>
+    <module>jobs/process/A8_3_HSTG/hstg_sql_server_delta_0.1</module>
+    <module>jobs/process/A8_1_LND/lnd_sqlserver_s3_0.3</module>
+    <module>jobs/joblets/Acceler8/accelr8_parameterloader_instance_0.1</module>
+    <module>jobs/process/A8_1_LND/lnd_snowflake_from_internal_s3_null_0.1</module>
+    <module>jobs/joblets/Acceler8/accelr8_parameterloader_instance_0.2</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_44_rdv_lsat_job_loop_0.1</module>
+    <module>jobs/joblets/Acceler8/accelr8_parameterloader_0.2</module>
+    <module>jobs/process/A8_2_STG/stg_sql_server_delta_0.1</module>
+    <module>jobs/process/WIP/test_binary_0.1</module>
+    <module>jobs/process/sf_loop_full_truncate_0.1</module>
+    <module>jobs/process/A8_4_INT/A8_43_LNK/lnk_snowflake_0.1</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_1_landing_job_loop_0.1</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_41_rdv_hub_job_loop_0.1</module>
+    <module>jobs/process/A8_4_INT/A8_44_LSAT/lsat_snowflake_insert_only_0.1</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_0_master_0.1</module>
+    <module>jobs/joblets/Acceler8/accelr8_parameterloader_0.1</module>
+    <module>jobs/process/A8_1_LND/lnd_sqlserver_s3_0.1</module>
+    <module>jobs/process/A8_1_LND/lnd_sqlserver_s3_0.2</module>
+    <module>jobs/process/A8_0_Orchestration/acceler8_42_rdv_sat_job_loop_0.1</module>
+    <module>jobs/process/A8_3_HSTG/hstg_snowflake_insert_only_0.1</module>
+    <module>jobs/joblets/A8_00_Setup/j_tr_020_createomd_mysql_0.1</module>
+    <module>jobs/joblets/Acceler8/accelr8_closebatchid_0.1</module>
   </modules>
   <properties>
     <talend.project.name>NPS_POC</talend.project.name>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="__EETMcX2EeiddtWt-bq5-A">
+    <contextParameter comment="Context Path file" name="A8_Metadata_File_Context_File" prompt="A8_Metadata_File_Context_File?" promptNeeded="false" type="id_File" value="" xmi:id="__EETMsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Header" name="A8_Metadata_File_Context_Header" prompt="A8_Metadata_File_Context_Header?" promptNeeded="false" type="id_Integer" value="1" xmi:id="__EETM8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Field Separator" name="A8_Metadata_File_Context_FieldSeparator" prompt="A8_Metadata_File_Context_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="__EETNMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Encoding" name="A8_Metadata_File_Context_Encoding" prompt="A8_Metadata_File_Context_Encoding?" promptNeeded="false" type="id_String" value="" xmi:id="__EETNcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Row Separator" name="A8_Metadata_File_Context_RowSeparator" prompt="A8_Metadata_File_Context_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="__EETNsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_SpecificPath" prompt="A8_Metadata_File_SpecificPath?" promptNeeded="false" type="id_String" value="" xmi:id="__EETN8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_Mask" prompt="A8_Metadata_File_Mask?" promptNeeded="false" type="id_String" value="*" xmi:id="__EETOMX2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PreProd" xmi:id="__EETOcX2EeiddtWt-bq5-A">
+    <contextParameter comment="Context Path file" name="A8_Metadata_File_Context_File" prompt="A8_Metadata_File_Context_File?" promptNeeded="false" type="id_File" value="" xmi:id="__EETOsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Header" name="A8_Metadata_File_Context_Header" prompt="A8_Metadata_File_Context_Header?" promptNeeded="false" type="id_Integer" value="1" xmi:id="__EETO8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Field Separator" name="A8_Metadata_File_Context_FieldSeparator" prompt="A8_Metadata_File_Context_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="__EETPMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Encoding" name="A8_Metadata_File_Context_Encoding" prompt="A8_Metadata_File_Context_Encoding?" promptNeeded="false" type="id_String" value="" xmi:id="__EETPcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Row Separator" name="A8_Metadata_File_Context_RowSeparator" prompt="A8_Metadata_File_Context_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="__EETPsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_SpecificPath" prompt="A8_Metadata_File_SpecificPath?" promptNeeded="false" type="id_String" value="" xmi:id="__EETP8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_Mask" prompt="A8_Metadata_File_Mask?" promptNeeded="false" type="id_String" value="*" xmi:id="__EETQMX2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="__EETQcX2EeiddtWt-bq5-A">
+    <contextParameter comment="Context Path file" name="A8_Metadata_File_Context_File" prompt="A8_Metadata_File_Context_File?" promptNeeded="false" type="id_File" value="" xmi:id="__EETQsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Header" name="A8_Metadata_File_Context_Header" prompt="A8_Metadata_File_Context_Header?" promptNeeded="false" type="id_Integer" value="1" xmi:id="__EETQ8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Field Separator" name="A8_Metadata_File_Context_FieldSeparator" prompt="A8_Metadata_File_Context_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="__EETRMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Encoding" name="A8_Metadata_File_Context_Encoding" prompt="A8_Metadata_File_Context_Encoding?" promptNeeded="false" type="id_String" value="" xmi:id="__EETRcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Row Separator" name="A8_Metadata_File_Context_RowSeparator" prompt="A8_Metadata_File_Context_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="__EETRsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_SpecificPath" prompt="A8_Metadata_File_SpecificPath?" promptNeeded="false" type="id_String" value="" xmi:id="__EETR8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_Mask" prompt="A8_Metadata_File_Mask?" promptNeeded="false" type="id_String" value="*" xmi:id="__EETSMX2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Test" xmi:id="__EETScX2EeiddtWt-bq5-A">
+    <contextParameter comment="Context Path file" name="A8_Metadata_File_Context_File" prompt="A8_Metadata_File_Context_File?" promptNeeded="false" type="id_File" value="" xmi:id="__EETSsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Header" name="A8_Metadata_File_Context_Header" prompt="A8_Metadata_File_Context_Header?" promptNeeded="false" type="id_Integer" value="1" xmi:id="__EETS8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Field Separator" name="A8_Metadata_File_Context_FieldSeparator" prompt="A8_Metadata_File_Context_FieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="__EETTMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Encoding" name="A8_Metadata_File_Context_Encoding" prompt="A8_Metadata_File_Context_Encoding?" promptNeeded="false" type="id_String" value="" xmi:id="__EETTcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="Context File Row Separator" name="A8_Metadata_File_Context_RowSeparator" prompt="A8_Metadata_File_Context_RowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="__EETTsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_SpecificPath" prompt="A8_Metadata_File_SpecificPath?" promptNeeded="false" type="id_String" value="" xmi:id="__EETT8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="A8_Metadata_File_Mask" prompt="A8_Metadata_File_Mask?" promptNeeded="false" type="id_String" value="*" xmi:id="__EETUMX2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_55a4d9ca-7133-445f-b996-81723b455e2b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tkygEgysZMBrP3RgeCrIYwx/Zk6Mbxz7ImyAp+YxDT5g1ufDn8mY44Nf6TBT3rmq0hu5a9KMf3Ba
+cJuH1FuI7Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_dd41bf52-2f94-406c-ba4b-2b4b687a8bff"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>okrbMdNq2A4aiogb5kPZP2MAPk13fo1u0mcy3fk9etjurzI+/M5FV8x8fIjZcTfjy8HreJlfxYQe
+QwJfufLl7w==</DigestValue></Reference></SignedInfo><SignatureValue>v8bS0/zNNlcT8rDZETInFGhIib8A1sZA/wPgVxanRBs6KOxCf1J+563cA83XcfWlIz5KqSQwooWU
+PN4N9moba9XSrXelRAh1zL/ybRsRuhCSI5szTtwVxhwlHzE0GYk4P7wsy6nr5KjpqovXqgQVNLxe
+8rwrPmFjKP49VZhnB/4iYX1BZRYJ5p6Z6rb5U9CVM0ewYK/E7enrOWt/SW5vunYEdhHz2XItW6LK
+ppTpkQEuoj2YTRcoeYtX3dPvatyjrx0kqBY3EBk9Qxy9aQLFfdSXNzjmGJ0zXPZOyttZgeMyzECD
+iKm+7Iq7pJGXnWcFUBbqhKYuK4TED56wc01gxg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_dd41bf52-2f94-406c-ba4b-2b4b687a8bff" Target="#_55a4d9ca-7133-445f-b996-81723b455e2b"><Timestamp>2018-10-02 03:55:21</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

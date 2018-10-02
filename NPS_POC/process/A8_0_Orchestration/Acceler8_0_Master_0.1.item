@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="dev" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="prod">
+    <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value="b_Master"/>
+    <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value=""/>
+    <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_Date" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+    <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="dev">
+    <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value="b_Master"/>
+    <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value=""/>
+    <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_Date" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+    <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+  </context>
+  <context confirmationNeeded="false" name="uat">
+    <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value="b_Master"/>
+    <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value=""/>
+    <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_Date" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+    <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+  </context>
+  <context confirmationNeeded="false" name="Test">
+    <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value="b_Master"/>
+    <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_String" value=""/>
+    <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_Lx_lMHs2Eei7J7WM-En0Cg" type="id_Date" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+    <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="32"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/afollin/workspace_701/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="0RMsyjmybrE="/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_rPOC4CWIEeiGP6a2s14S2Q" name="DQTechnical"/>
+    <routinesParameter id="_rOaKkCWIEeiGP6a2s14S2Q" name="DataMasking"/>
+    <routinesParameter id="_rMNLICWIEeiGP6a2s14S2Q" name="DataOperation"/>
+    <routinesParameter id="_rOpbICWIEeiGP6a2s14S2Q" name="DataQualityDependencies"/>
+    <routinesParameter id="_rOjUgCWIEeiGP6a2s14S2Q" name="DataQuality"/>
+    <routinesParameter id="_rPGuICWIEeiGP6a2s14S2Q" name="DqStringHandling"/>
+    <routinesParameter id="_rOUD8CWIEeiGP6a2s14S2Q" name="MDM"/>
+    <routinesParameter id="_rMVG8CWIEeiGP6a2s14S2Q" name="Mathematical"/>
+    <routinesParameter id="_rMkXgCWIEeiGP6a2s14S2Q" name="Numeric"/>
+    <routinesParameter id="_rMrsQCWIEeiGP6a2s14S2Q" name="Relational"/>
+    <routinesParameter id="_q7AtcCWIEeiGP6a2s14S2Q" name="SQLike"/>
+    <routinesParameter id="_rMyZ8CWIEeiGP6a2s14S2Q" name="StringHandling"/>
+    <routinesParameter id="_rM680CWIEeiGP6a2s14S2Q" name="TalendDataGenerator"/>
+    <routinesParameter id="_rN4mICWIEeiGP6a2s14S2Q" name="TalendDate"/>
+    <routinesParameter id="_rOMvMCWIEeiGP6a2s14S2Q" name="TalendStringUtil"/>
+    <routinesParameter id="_rOC-MCWIEeiGP6a2s14S2Q" name="TalendString"/>
+  </parameters>
+  <node componentName="Accelr8_ParameterLoader" componentVersion="0.2" offsetLabelX="0" offsetLabelY="0" posX="224" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Accelr8_ParameterLoader_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="true"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="LABEL" value="Accelr8_ParameterLoader"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="Accelr8_closeBatchID" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="448" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" value="Accelr8_closeBatchID_1"/>
+    <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
+    <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
+    <elementParameter field="CHECK" name="DUMMY" show="false" value="false"/>
+    <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+    <elementParameter field="CHECK" name="START" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="CLOSED_LIST" name="TRIGGER_INPUT_1" value="COMPONENT_OK"/>
+    <elementParameter field="COMPONENT_LIST" name="TRIGGER_INPUT_1:COMPONENT_LIST" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="LABEL" value="Accelr8_closeBatchID"/>
+    <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+    <elementParameter field="MEMO" name="COMMENT" value=""/>
+  </node>
+  <node componentName="tPostjob" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="640">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tLogCatcher" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_2"/>
+    <elementParameter field="CHECK" name="CATCH_JAVA_EXCEPTION" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TDIE" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TWARN" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_TACTIONFAILURE" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="Get Error"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tLogCatcher_2">
+      <column key="false" length="0" name="moment" nullable="true" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;" precision="0" sourceType="" type="id_Date" usefulColumn="true"/>
+      <column key="false" length="20" name="pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="20" name="root_pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="20" name="father_pid" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="project" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="job" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="50" name="context" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="priority" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+      <column key="false" length="255" name="type" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="origin" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column key="false" length="255" name="message" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      <column defaultValue="" key="false" length="3" name="code" nullable="true" precision="0" sourceType="" type="id_Integer" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="448" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJavaRow_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String[] components = {&quot;tRunJob_1&quot;,&quot;tRunJob_3&quot;,&quot;tRunJob_6&quot;,&quot;tRunJob_10&quot;,&quot;tRunJob_15&quot;,&quot;tRunJob_21&quot;,&quot;tRunJob_28&quot;,&quot;Accelr8_ParameterLoader_1_tMSSqlConnection_1&quot;,&quot;Accelr8_ParameterLoader_1_tMSSqlInput_1&quot;,&quot;Accelr8_closeBatchID_1_tMSSqlConnection_1&quot;};&#10;&#10;java.util.List&lt;String&gt; componentList = java.util.Arrays.asList(components);&#10;&#10;switch (componentList.indexOf(input_row.origin)) {&#10;&#9;case 0:&#10;&#9;case 1:&#10;&#9;case 2:&#10;&#9;case 3:&#10;&#9;case 4:&#10;&#9;case 5:&#10;&#9;case 6:&#10;&#9;&#9;globalMap.put(&quot;errorMessage&quot;, &quot;Error while running subjob.&quot;+input_row.message);&#10;&#9;break;&#10;&#9;case 7:&#10;&#9;case 9:&#10;&#9;&#9;&#9;globalMap.put(&quot;errorMessage&quot;, &quot;Cant connect to OMD metadata DB. Host :&quot;+context.EDW_900_OMD_Framework_Server+&quot;:&quot;+context.EDW_900_OMD_Framework_Port+&quot; Username:&quot;+context.EDW_900_OMD_Framework_Login);&#10;&#9;break;&#10;&#9;case 8:&#10;&#9;&#9;&#9;globalMap.put(&quot;errorMessage&quot;, &quot;Error on retrieving Batch ID Query. SQL is &quot;+((String)globalMap.get(&quot;Accelr8_ParameterLoader_1_tMSSqlInput_1_QUERY&quot;)));&#10;&#9;break;&#10;&#9;default:&#10;&#9;&#9;&#9;globalMap.put(&quot;errorMessage&quot;, &quot;unidentified error&quot;);&#10;}&#10;&#10;&#10;globalMap.put(&quot;jobStatus&quot;, &quot;failure&quot;);&#10;globalMap.put(&quot;errorCode&quot;, input_row.code.toString());"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value=""/>
+    <elementParameter field="TEXT" name="LABEL" value="SetMessage"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJavaRow_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Acceler8_1_Landing_Job_Loop"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_uY-7sHgzEeijjcAbfkO8-A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Acceler8_2_Staging_Job_Loop"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_11IMsGR1EeiwFo0_PelTfw"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="-1" offsetLabelY="2" posX="832" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_6"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Acceler8_3_HistoricStaging_Job_Loop"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_Bb1ikHgpEeijjcAbfkO8-A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_6"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="14" offsetLabelY="4" posX="224" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_10"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Acceler8_41_RDV_HUB_Job_Loop"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_DkcscHj7EeijjcAbfkO8-A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_10"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="512" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_15"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Acceler8_42_RDV_SAT_Job_Loop"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_PjLFAHm7EeijjcAbfkO8-A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_15"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_21"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Acceler8_43_RDV_LNK_Job_Loop"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_DbPksHnNEeijjcAbfkO8-A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_21"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1088" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_28"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="Acceler8_44_RDV_LSAT_Job_Loop"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_FQOT4HnOEeijjcAbfkO8-A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="__PROCESS__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_28"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="LND_SqlServer_S3"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="dev"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_Vj_agHBQEeiuBJWC5IfICg"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="false"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS"/>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="TEXT" name="LABEL" value="Retrieve data from SQLServer to S3"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <connection connectorName="TRIGGER_OUTPUT_1" label="OnSubjobOk (End(TRIGGER_OUTPUT_1))" lineStyle="1" metaname="Accelr8_ParameterLoader_1" offsetLabelX="0" offsetLabelY="0" source="Accelr8_ParameterLoader_1" target="tRunJob_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tPostjob_1" offsetLabelX="0" offsetLabelY="0" source="tPostjob_1" target="Accelr8_closeBatchID_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="FLOW" label="Exceptions" lineStyle="0" metaname="tLogCatcher_2" offsetLabelX="0" offsetLabelY="0" source="tLogCatcher_2" target="tJavaRow_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="moment"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="root_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="father_pid"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="project"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="job"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="context"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="priority"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="type"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="origin"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="message"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="code"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Exceptions"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tRunJob_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_6" offsetLabelX="0" offsetLabelY="0" source="tRunJob_6" target="tRunJob_10">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk6"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_10" offsetLabelX="0" offsetLabelY="0" source="tRunJob_10" target="tRunJob_15">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk7"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_15" offsetLabelX="0" offsetLabelY="0" source="tRunJob_15" target="tRunJob_21">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk8"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_21" offsetLabelX="0" offsetLabelY="0" source="tRunJob_21" target="tRunJob_28">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk9"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk10"/>
+  </connection>
+  <subjob>
+    <elementParameter field="CHECK" name="COLLAPSED" show="false" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Accelr8_ParameterLoader_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="Accelr8_closeBatchID_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tPostjob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="230;100;0"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;220;180"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogCatcher_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Capture errors and prepare message for log file"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;128"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;177;140"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Landing Loop"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;128;255"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Staging"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;128;255"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_6"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Historic Staging"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="128;128;255"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_10"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="RDV - Hub"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_15"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="RDV - Sat"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_21"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="RDV - Lnk"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_28"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="RDV - LSAT"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;64"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Preparation steps"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_d3d51a96-77fe-4adf-b7f6-03186877fd6d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8jGYzLIwNabEG+CUM5bin2/74/Hr+/phuINBUp7iHfLD76si1H8UYp0bT86nWgmjnjX/v478kq5P
+RzoZJarO7A==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_47e4cce6-880c-41a5-bc5a-962eef84cce9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ZVow3+VSvXfaN1fj/ThNx8OAhYa/C1+2myxQmrdaL2CEEbASlbAPNb4BJQUgF3HLYhUEU2YtYbYC
+7wMVKpZKhw==</DigestValue></Reference></SignedInfo><SignatureValue>dp+cUnh5Ze1lqveNV71mDsC/Dv3fpeC8IcwoG1ZmX3TxEBperVUeblqv3oRniPBCfVzYIOCrpesY
+axqZAP9/nqopCPJdFVIFYPWWXtH0BDtbk9/9pZagbEaoWa90UGfOTfW5obvHI5u+eVAUhmvGA2Qf
+s+FyUKZZVSLYNuq/qz+j+CYIScR5kfBMa9yWsPjIwwfw/QT5+OXgrYxjIQTxuTN64ZNzOJDnU4VA
+XeBbtrS4KlaJDPsY08ghKIp9Fw/RVISJLRkFdLrox6vauyads6lKxQ1a49sS2T0UFpUMw98lChSy
+H2x0KOWAI/KnB0qLUuMOS9LSR0Ht6L7PLsatjw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_47e4cce6-880c-41a5-bc5a-962eef84cce9" Target="#_d3d51a96-77fe-4adf-b7f6-03186877fd6d"><Timestamp>2018-10-02 03:55:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

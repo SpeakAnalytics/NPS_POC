@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmi:version="2.0">
+  <model:JobletProcess defaultContext="Default" jobType="Standard">
+    <context confirmationNeeded="false" name="Default">
+      <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
+      <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="b_STG_ADV"/>
+      <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler20162931.cloudapp.net"/>
+    </context>
+    <context confirmationNeeded="false" name="Prod">
+      <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
+      <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="b_STG_ADV"/>
+      <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler20162931.cloudapp.net"/>
+    </context>
+    <context confirmationNeeded="false" name="prod">
+      <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
+      <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="b_STG_ADV"/>
+      <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler20162931.cloudapp.net"/>
+    </context>
+    <context confirmationNeeded="false" name="Dev">
+      <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
+      <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="b_STG_ADV"/>
+      <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler20162931.cloudapp.net"/>
+    </context>
+    <context confirmationNeeded="false" name="dev">
+      <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
+      <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="b_STG_ADV"/>
+      <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler20162931.cloudapp.net"/>
+    </context>
+    <context confirmationNeeded="false" name="Test">
+      <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
+      <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="b_STG_ADV"/>
+      <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler20162931.cloudapp.net"/>
+    </context>
+    <context confirmationNeeded="false" name="uat">
+      <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
+      <contextParameter comment="" name="Acceler8_batchCode" prompt="Acceler8_batchCode?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="b_STG_ADV"/>
+      <contextParameter comment="" name="Acceler8_Load" prompt="Acceler8_Load?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="Acceler8_Module" prompt="Acceler8_Module?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value=""/>
+      <contextParameter comment="" name="Acceler8_Truncate" prompt="Acceler8_Truncate?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_String" value="SELECT 1"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_AdditionalParams" prompt="EDW_900_OMD_Framework_AdditionalParams?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value=""/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Database" prompt="EDW_900_OMD_Framework_Database?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="EDW_900_OMD_Framework"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Login" prompt="EDW_900_OMD_Framework_Login?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="etl"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
+      <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler20162931.cloudapp.net"/>
+    </context>
+    <parameters>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+      <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+      <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+      <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+      <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" show="false" value="false"/>
+      <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" show="false" value="25000"/>
+      <elementParameter field="CHECK" name="STARTABLE" value="true"/>
+      <elementParameter field="ICON_SELECTION" name="ICONSELECTION" value=""/>
+      <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+      <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;C:/Users/afollin/workspace/in.csv&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+      <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value="ORACLE_11"/>
+      <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+      <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="0RMsyjmybrE="/>
+      <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="true"/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+      <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+      <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+      <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+      <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+      <routinesParameter id="_rPOC4CWIEeiGP6a2s14S2Q" name="DQTechnical"/>
+      <routinesParameter id="_rOaKkCWIEeiGP6a2s14S2Q" name="DataMasking"/>
+      <routinesParameter id="_rMNLICWIEeiGP6a2s14S2Q" name="DataOperation"/>
+      <routinesParameter id="_rOpbICWIEeiGP6a2s14S2Q" name="DataQualityDependencies"/>
+      <routinesParameter id="_rOjUgCWIEeiGP6a2s14S2Q" name="DataQuality"/>
+      <routinesParameter id="_rPGuICWIEeiGP6a2s14S2Q" name="DqStringHandling"/>
+      <routinesParameter id="_rOUD8CWIEeiGP6a2s14S2Q" name="MDM"/>
+      <routinesParameter id="_rMVG8CWIEeiGP6a2s14S2Q" name="Mathematical"/>
+      <routinesParameter id="_rMkXgCWIEeiGP6a2s14S2Q" name="Numeric"/>
+      <routinesParameter id="_rMrsQCWIEeiGP6a2s14S2Q" name="Relational"/>
+      <routinesParameter id="_q7AtcCWIEeiGP6a2s14S2Q" name="SQLike"/>
+      <routinesParameter id="_rMyZ8CWIEeiGP6a2s14S2Q" name="StringHandling"/>
+      <routinesParameter id="_rM680CWIEeiGP6a2s14S2Q" name="TalendDataGenerator"/>
+      <routinesParameter id="_rN4mICWIEeiGP6a2s14S2Q" name="TalendDate"/>
+      <routinesParameter id="_rOMvMCWIEeiGP6a2s14S2Q" name="TalendStringUtil"/>
+      <routinesParameter id="_rOC-MCWIEeiGP6a2s14S2Q" name="TalendString"/>
+    </parameters>
+    <node componentName="tMSSqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="192">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlConnection_1"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA"/>
+      <elementParameter field="CLOSED_LIST" name="DRIVER" value="MSSQL_PROP"/>
+      <elementParameter field="TEXT" name="HOST" value="context.EDW_900_OMD_Framework_Server"/>
+      <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+      <elementParameter field="TEXT" name="PORT" value="context.EDW_900_OMD_Framework_Port"/>
+      <elementParameter field="TEXT" name="SCHEMA_DB" value="context.EDW_900_OMD_Framework_Schema"/>
+      <elementParameter field="TEXT" name="DBNAME" value="context.EDW_900_OMD_Framework_Database"/>
+      <elementParameter field="TEXT" name="USER" value="context.EDW_900_OMD_Framework_Login"/>
+      <elementParameter field="PASSWORD" name="PASS" value="8pW6Nmy2kuf1MNUYunXVih5klgqBEZ87g9e+1HwNNpvVz704r4K0lQ=="/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="TEXT" name="PROPERTIES" value="context.EDW_900_OMD_Framework_AdditionalParams"/>
+      <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="true"/>
+      <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" value="&quot;Framework&quot;"/>
+      <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+      <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CHECK" name="AUTO_COMMIT" value="true"/>
+      <elementParameter field="CHECK" name="SHARE_IDENTITY_SETTING" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="OMD Framework Connection"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    </node>
+    <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+      <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+      <elementParameter field="RADIO" name="USE_SINGLEMODE" value="false"/>
+      <elementParameter field="TABLE" name="VALUES" show="false">
+        <elementValue elementRef="SCHEMA_COLUMN" value="key"/>
+        <elementValue elementRef="VALUE" value="&quot;ParentJob&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="value"/>
+        <elementValue elementRef="VALUE" value="jobName"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="USE_INTABLE" value="true"/>
+      <elementParameter field="TABLE" name="INTABLE">
+        <elementValue elementRef="key" value="&quot;ParentJob&quot;"/>
+        <elementValue elementRef="value" value="jobName"/>
+        <elementValue elementRef="key" value="&quot;JobVersion&quot;"/>
+        <elementValue elementRef="value" value="jobVersion"/>
+        <elementValue elementRef="key" value="&quot;Acceler8_START_DATETIME&quot;"/>
+        <elementValue elementRef="value" value="TalendDate.getDate(&quot;CCYY-MM-DD hh:mm:ss&quot;)"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+      <elementParameter field="TEXT" name="LABEL" value="InitialiseJobInstance"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tFixedFlowInput_1">
+        <column comment="" key="false" length="-1" name="key" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="value" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="64">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_1"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Info"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Info"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+      <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="Job Instance Load Context"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tContextLoad_1">
+        <column key="false" length="255" name="key" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="value" nullable="true" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlInput_1"/>
+      <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA"/>
+      <elementParameter field="TEXT" name="HOST" show="false" value="context.EDW_900_OMD_Framework_Server"/>
+      <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
+      <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+      <elementParameter field="TEXT" name="PORT" show="false" value="context.EDW_900_OMD_Framework_Port"/>
+      <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="context.EDW_900_OMD_Framework_Schema"/>
+      <elementParameter field="TEXT" name="DBNAME" show="false" value="context.EDW_900_OMD_Framework_Database"/>
+      <elementParameter field="TEXT" name="USER" show="false" value="context.EDW_900_OMD_Framework_Login"/>
+      <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf1MNUYunXVih5klgqBEZ87g9e+1HwNNpvVz704r4K0lQ=="/>
+      <elementParameter field="DBTABLE" name="TABLE" value="&quot;&quot;"/>
+      <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+      <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA - retrieve_batchID"/>
+      <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+      <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+      <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;select BATCH_ID from omd_batch where batch_code='&quot;+context.Acceler8_batchCode+&quot;'&quot;"/>
+      <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+      <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+      <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+      <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.EDW_900_OMD_Framework_AdditionalParams"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+      <elementParameter field="TABLE" name="TRIM_COLUMN">
+        <elementValue elementRef="SCHEMA_COLUMN" value="BATCH_ID"/>
+        <elementValue elementRef="TRIM" value="false"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="Retrieve latest BatchID"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tMSSqlInput_1">
+        <column comment="" key="false" length="-1" name="BATCH_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="320">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_1"/>
+      <elementParameter field="TABLE" name="VARIABLES">
+        <elementValue elementRef="KEY" value="&quot;batchID&quot;"/>
+        <elementValue elementRef="VALUE" value="toGlobal.BATCH_ID"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="Set batch Id"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tSetGlobalVar_1">
+        <column comment="" key="false" length="-1" name="BATCH_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tFixedFlowInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="448">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
+      <elementParameter field="TEXT" name="NB_ROWS" value="1"/>
+      <elementParameter field="RADIO" name="USE_SINGLEMODE" value="true"/>
+      <elementParameter field="TABLE" name="VALUES">
+        <elementValue elementRef="SCHEMA_COLUMN" value="BATCH_ID"/>
+        <elementValue elementRef="VALUE" value="((String)globalMap.get(&quot;batchID&quot;))"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="START_DATETIME"/>
+        <elementValue elementRef="VALUE" value="context.Acceler8_START_DATETIME"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="END_DATETIME"/>
+        <elementValue elementRef="VALUE" value="null"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PROCESSING_INDICATOR"/>
+        <elementValue elementRef="VALUE" value="&quot;P&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="NEXT_RUN_INDICATOR"/>
+        <elementValue elementRef="VALUE" value="&quot;P&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EXECUTION_STATUS_CODE"/>
+        <elementValue elementRef="VALUE" value="&quot;E&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="BATCH_EXECUTION_SYSTEM_ID"/>
+        <elementValue elementRef="VALUE" value="&quot;&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PREVIOUS_BATCH_ID"/>
+        <elementValue elementRef="VALUE" value="&quot;0&quot;"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PREVIOUS_BATCH_INSTANCE_ID"/>
+        <elementValue elementRef="VALUE" value="null"/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="USE_INTABLE" value="false"/>
+      <elementParameter field="TABLE" name="INTABLE" show="false">
+        <elementValue elementRef="BATCH_ID" value=""/>
+        <elementValue elementRef="START_DATETIME" value=""/>
+        <elementValue elementRef="END_DATETIME" value=""/>
+        <elementValue elementRef="PROCESSING_INDICATOR" value=""/>
+        <elementValue elementRef="NEXT_RUN_INDICATOR" value=""/>
+        <elementValue elementRef="EXECUTION_STATUS_CODE" value=""/>
+        <elementValue elementRef="BATCH_EXECUTION_SYSTEM_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_INSTANCE_ID" value=""/>
+        <elementValue elementRef="BATCH_ID" value=""/>
+        <elementValue elementRef="START_DATETIME" value=""/>
+        <elementValue elementRef="END_DATETIME" value=""/>
+        <elementValue elementRef="PROCESSING_INDICATOR" value=""/>
+        <elementValue elementRef="NEXT_RUN_INDICATOR" value=""/>
+        <elementValue elementRef="EXECUTION_STATUS_CODE" value=""/>
+        <elementValue elementRef="BATCH_EXECUTION_SYSTEM_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_INSTANCE_ID" value=""/>
+        <elementValue elementRef="BATCH_ID" value=""/>
+        <elementValue elementRef="START_DATETIME" value=""/>
+        <elementValue elementRef="END_DATETIME" value=""/>
+        <elementValue elementRef="PROCESSING_INDICATOR" value=""/>
+        <elementValue elementRef="NEXT_RUN_INDICATOR" value=""/>
+        <elementValue elementRef="EXECUTION_STATUS_CODE" value=""/>
+        <elementValue elementRef="BATCH_EXECUTION_SYSTEM_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_INSTANCE_ID" value=""/>
+        <elementValue elementRef="BATCH_ID" value=""/>
+        <elementValue elementRef="START_DATETIME" value=""/>
+        <elementValue elementRef="END_DATETIME" value=""/>
+        <elementValue elementRef="PROCESSING_INDICATOR" value=""/>
+        <elementValue elementRef="NEXT_RUN_INDICATOR" value=""/>
+        <elementValue elementRef="EXECUTION_STATUS_CODE" value=""/>
+        <elementValue elementRef="BATCH_EXECUTION_SYSTEM_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_ID" value=""/>
+        <elementValue elementRef="PREVIOUS_BATCH_INSTANCE_ID" value=""/>
+      </elementParameter>
+      <elementParameter field="RADIO" name="USE_INLINECONTENT" value="false"/>
+      <elementParameter field="TEXT" name="ROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+      <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;;&quot;"/>
+      <elementParameter field="MEMO" name="INLINECONTENT" show="false" value=""/>
+      <elementParameter field="TEXT" name="LABEL" value="InitialiseJobInstance"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="OMD_BATCH_INSTANCE" name="tFixedFlowInput_2">
+        <column comment="" key="false" length="40" name="BATCH_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="START_DATETIME" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="END_DATETIME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="1" name="PROCESSING_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="1" name="NEXT_RUN_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="EXECUTION_STATUS_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="BATCH_EXECUTION_SYSTEM_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="40" name="PREVIOUS_BATCH_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="PREVIOUS_BATCH_INSTANCE_ID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+    </node>
+    <node componentName="tMSSqlOutput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="480" posY="448">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlOutput_1"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA"/>
+      <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+      <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
+      <elementParameter field="TEXT" name="HOST" show="false" value="context.EDW_900_OMD_Framework_Server"/>
+      <elementParameter field="TEXT" name="PORT" show="false" value="context.EDW_900_OMD_Framework_Port"/>
+      <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="context.EDW_900_OMD_Framework_Schema"/>
+      <elementParameter field="TEXT" name="DBNAME" show="false" value="context.EDW_900_OMD_Framework_Database"/>
+      <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+      <elementParameter field="TEXT" name="USER" show="false" value="context.EDW_900_OMD_Framework_Login"/>
+      <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf1MNUYunXVih5klgqBEZ87g9e+1HwNNpvVz704r4K0lQ=="/>
+      <elementParameter field="DBTABLE" name="TABLE" value="&quot;OMD_BATCH_INSTANCE&quot;"/>
+      <elementParameter field="CLOSED_LIST" name="TABLE_ACTION" value="NONE"/>
+      <elementParameter field="CHECK" name="IDENTITY_INSERT" value="false"/>
+      <elementParameter field="CLOSED_LIST" name="DATA_ACTION" value="SINGLE_INSERT"/>
+      <elementParameter field="LABEL" name="NOTE" value="NOTE: batch size must be less than or equal to total number of parameter markers divided by number of columns"/>
+      <elementParameter field="CHECK" name="SPECIFY_IDENTITY_FIELD" show="false" value="false"/>
+      <elementParameter field="COLUMN_LIST" name="IDENTITY_FIELD" show="false" value="BATCH_ID"/>
+      <elementParameter field="TEXT" name="START_VALUE" show="false" value="1"/>
+      <elementParameter field="TEXT" name="STEP" show="false" value="1"/>
+      <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+      <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" value="false"/>
+      <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+      <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.EDW_900_OMD_Framework_AdditionalParams"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="TEXT" name="COMMIT_EVERY" show="false" value="10000"/>
+      <elementParameter field="TABLE" name="ADD_COLS"/>
+      <elementParameter field="CHECK" name="USE_FIELD_OPTIONS" value="false"/>
+      <elementParameter field="TABLE" name="FIELD_OPTIONS" show="false">
+        <elementValue elementRef="SCHEMA_COLUMN" value="BATCH_ID"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="START_DATETIME"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="END_DATETIME"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PROCESSING_INDICATOR"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="NEXT_RUN_INDICATOR"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="EXECUTION_STATUS_CODE"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="BATCH_EXECUTION_SYSTEM_ID"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PREVIOUS_BATCH_ID"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PREVIOUS_BATCH_INSTANCE_ID"/>
+        <elementValue elementRef="UPDATE_KEY" value="false"/>
+        <elementValue elementRef="DELETE_KEY" value="false"/>
+        <elementValue elementRef="UPDATABLE" value="true"/>
+        <elementValue elementRef="INSERTABLE" value="true"/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="IGNORE_DATE_OUTOF_RANGE" value="false"/>
+      <elementParameter field="CHECK" name="ENABLE_DEBUG_MODE" value="false"/>
+      <elementParameter field="CHECK" name="SUPPORT_NULL_WHERE" value="false"/>
+      <elementParameter field="CHECK" name="USE_BATCH_SIZE" value="false"/>
+      <elementParameter field="TEXT" name="BATCH_SIZE" show="false" value="1"/>
+      <elementParameter field="TEXT" name="LABEL" value="Insert into &lt;b&gt;__TABLE__&lt;/b&gt;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" label="OMD_BATCH_INSTANCE" name="tMSSqlOutput_1">
+        <column comment="" key="false" length="40" name="BATCH_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="START_DATETIME" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="END_DATETIME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="1" name="PROCESSING_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="1" name="NEXT_RUN_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="EXECUTION_STATUS_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="BATCH_EXECUTION_SYSTEM_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="40" name="PREVIOUS_BATCH_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="PREVIOUS_BATCH_INSTANCE_ID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+      </metadata>
+      <metadata connector="REJECT" label="OMD_BATCH_INSTANCE" name="REJECT">
+        <column comment="" key="false" length="40" name="BATCH_ID" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="START_DATETIME" nullable="false" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="23" name="END_DATETIME" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="3" sourceType="DATETIME" type="id_Date" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="1" name="PROCESSING_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="1" name="NEXT_RUN_INDICATOR" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="EXECUTION_STATUS_CODE" nullable="false" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="100" name="BATCH_EXECUTION_SYSTEM_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="40" name="PREVIOUS_BATCH_ID" nullable="true" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column comment="" key="false" length="10" name="PREVIOUS_BATCH_INSTANCE_ID" nullable="true" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true">
+          <additionalField key="Comment" value=""/>
+        </column>
+        <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="576">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlInput_2"/>
+      <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA"/>
+      <elementParameter field="TEXT" name="HOST" show="false" value="context.EDW_900_OMD_Framework_Server"/>
+      <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
+      <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+      <elementParameter field="TEXT" name="PORT" show="false" value="context.EDW_900_OMD_Framework_Port"/>
+      <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="context.EDW_900_OMD_Framework_Schema"/>
+      <elementParameter field="TEXT" name="DBNAME" show="false" value="context.EDW_900_OMD_Framework_Database"/>
+      <elementParameter field="TEXT" name="USER" show="false" value="context.EDW_900_OMD_Framework_Login"/>
+      <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf1MNUYunXVih5klgqBEZ87g9e+1HwNNpvVz704r4K0lQ=="/>
+      <elementParameter field="DBTABLE" name="TABLE" value="&quot;OMD_BATCH_INSTANCE&quot;"/>
+      <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+      <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA - retrieve_BatchInstanceID"/>
+      <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+      <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+      <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT&#13;&#10;&#9;BATCH_INSTANCE_ID,&#13;&#10;&#9;PROCESSING_INDICATOR&#13;&#10;FROM OMD_BATCH_INSTANCE &#13;&#10;WHERE BATCH_ID='&quot;+((String)globalMap.get(&quot;batchID&quot;))+&quot;'&#13;&#10;AND START_DATETIME='&quot;+TalendDate.TO_CHAR(context.Acceler8_START_DATETIME, &quot;yyyy-MM-dd HH24:MI:SS&quot;)+&quot;'&#13;&#10;AND EXECUTION_STATUS_CODE='E'&#13;&#10;&quot;"/>
+      <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+      <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+      <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+      <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.EDW_900_OMD_Framework_AdditionalParams"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+      <elementParameter field="TABLE" name="TRIM_COLUMN">
+        <elementValue elementRef="SCHEMA_COLUMN" value="BATCH_INSTANCE_ID"/>
+        <elementValue elementRef="TRIM" value="false"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PROCESSING_INDICATOR"/>
+        <elementValue elementRef="TRIM" value="false"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="Retrieve &lt;b&gt;batchInstanceID&lt;/b&gt;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tMSSqlInput_2">
+        <column comment="" key="false" length="-1" name="BATCH_INSTANCE_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="PROCESSING_INDICATOR" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tSetGlobalVar" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="480" posY="576">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tSetGlobalVar_2"/>
+      <elementParameter field="TABLE" name="VARIABLES">
+        <elementValue elementRef="KEY" value="&quot;batchInstanceID&quot;"/>
+        <elementValue elementRef="VALUE" value="getID.BATCH_INSTANCE_ID"/>
+        <elementValue elementRef="KEY" value="&quot;jobStatus&quot;"/>
+        <elementValue elementRef="VALUE" value="&quot;&quot;"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="Set batch Instance Id"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tSetGlobalVar_2">
+        <column comment="" key="false" length="-1" name="BATCH_INSTANCE_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="-1" name="PROCESSING_INDICATOR" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tMSSqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="160" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlInput_3"/>
+      <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+      <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMSSqlConnection_1"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" show="false" value="REPOSITORY"/>
+      <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA"/>
+      <elementParameter field="TEXT" name="HOST" show="false" value="context.EDW_900_OMD_Framework_Server"/>
+      <elementParameter field="CLOSED_LIST" name="DRIVER" show="false" value="MSSQL_PROP"/>
+      <elementParameter field="TEXT" name="TYPE" show="false" value="MSSQL"/>
+      <elementParameter field="TEXT" name="PORT" show="false" value="context.EDW_900_OMD_Framework_Port"/>
+      <elementParameter field="TEXT" name="DB_SCHEMA" show="false" value="context.EDW_900_OMD_Framework_Schema"/>
+      <elementParameter field="TEXT" name="DBNAME" show="false" value="context.EDW_900_OMD_Framework_Database"/>
+      <elementParameter field="TEXT" name="USER" show="false" value="context.EDW_900_OMD_Framework_Login"/>
+      <elementParameter field="PASSWORD" name="PASS" show="false" value="8pW6Nmy2kuf1MNUYunXVih5klgqBEZ87g9e+1HwNNpvVz704r4K0lQ=="/>
+      <elementParameter field="DBTABLE" name="TABLE" value="&quot;OMD_PARAMETER&quot;"/>
+      <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+      <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value="_HDie0GSJEeiufZeuOqz-XA - retrieve_general_parameter"/>
+      <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="REPOSITORY"/>
+      <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+      <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT PARAMETER_ID, PARAMETER_KEY_CODE, PARAMETER_VALUE_CODE&#13;&#10;FROM OMD_PARAMETER&#13;&#10;WHERE PARAMETER_ID NOT IN (SELECT PARAMETER_ID FROM OMD_MODULE_PARAMETER)&quot;"/>
+      <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+      <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+      <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+      <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="id_MSSQL"/>
+      <elementParameter field="TEXT" name="PROPERTIES" show="false" value="context.EDW_900_OMD_Framework_AdditionalParams"/>
+      <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+      <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+      <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="false"/>
+      <elementParameter field="TABLE" name="TRIM_COLUMN">
+        <elementValue elementRef="SCHEMA_COLUMN" value="PARAMETER_ID"/>
+        <elementValue elementRef="TRIM" value="false"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PARAMETER_KEY_CODE"/>
+        <elementValue elementRef="TRIM" value="false"/>
+        <elementValue elementRef="SCHEMA_COLUMN" value="PARAMETER_VALUE_CODE"/>
+        <elementValue elementRef="TRIM" value="false"/>
+      </elementParameter>
+      <elementParameter field="TEXT" name="LABEL" value="Retrieve &lt;b&gt;Parameter&lt;/b&gt;"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tMSSqlInput_3">
+        <column comment="" defaultValue="" key="false" length="10" name="PARAMETER_ID" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+        <column comment="" key="false" length="1000" name="PARAMETER_KEY_CODE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+        <column comment="" key="false" length="1000" name="PARAMETER_VALUE_CODE" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="480" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+      <elementParameter field="EXTERNAL" name="MAP" value=""/>
+      <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+      <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+      <elementParameter field="IMAGE" name="PREVIEW" value="_lntU4GnxEei8SNd6M-b8ww-tMap_1-PREVIEW.bmp"/>
+      <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+      <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+      <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+      <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+      <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="true"/>
+      <elementParameter field="TEXT" name="LABEL" value="ReMap"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="toContext">
+        <column key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+      <nodeData xsi:type="TalendMapper:MapperData">
+        <uiProperties/>
+        <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+        <outputTables name="toContext" sizeState="INTERMEDIATE">
+          <mapperTableEntries expression="reMap.PARAMETER_KEY_CODE " name="key" nullable="true" type="id_String"/>
+          <mapperTableEntries expression="( reMap.PARAMETER_KEY_CODE.toLowerCase().contains(&quot;password&quot;)==true ) ? PasswordEncryptUtil.decryptPassword(reMap.PARAMETER_VALUE_CODE) :  reMap.PARAMETER_VALUE_CODE " name="value" nullable="true" type="id_String"/>
+        </outputTables>
+        <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="reMap" sizeState="INTERMEDIATE">
+          <mapperTableEntries name="PARAMETER_ID" type="id_Integer"/>
+          <mapperTableEntries name="PARAMETER_KEY_CODE" nullable="true" type="id_String"/>
+          <mapperTableEntries name="PARAMETER_VALUE_CODE" type="id_String"/>
+        </inputTables>
+      </nodeData>
+    </node>
+    <node componentName="tContextLoad" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="704" posY="704">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tContextLoad_2"/>
+      <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" value="Info"/>
+      <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" value="Info"/>
+      <elementParameter field="CHECK" name="PRINT_OPERATIONS" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_ERROR" value="false"/>
+      <elementParameter field="CHECK" name="DISABLE_WARNINGS" value="true"/>
+      <elementParameter field="CHECK" name="DISABLE_INFO" value="true"/>
+      <elementParameter field="CHECK" name="DIEONERROR" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="Context from DB"/>
+      <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+      <metadata connector="FLOW" name="tContextLoad_2">
+        <column defaultValue="" key="false" length="255" name="key" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+        <column defaultValue="" key="false" length="255" name="value" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
+      </metadata>
+    </node>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlConnection_1" target="tMSSqlInput_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+    </connection>
+    <connection connectorName="FLOW" label="JobInstance" lineStyle="0" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tContextLoad_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="JobInstance"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_1" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_1" target="tMSSqlConnection_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+    </connection>
+    <connection connectorName="FLOW" label="toGlobal" lineStyle="0" metaname="tMSSqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_1" target="tSetGlobalVar_1">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="BATCH_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="toGlobal"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_1" target="tFixedFlowInput_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+    </connection>
+    <connection connectorName="FLOW" label="startInstance" lineStyle="0" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tMSSqlOutput_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="startInstance"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tFixedFlowInput_2" offsetLabelX="0" offsetLabelY="0" source="tFixedFlowInput_2" target="tMSSqlInput_2">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+    </connection>
+    <connection connectorName="FLOW" label="getID" lineStyle="0" metaname="tMSSqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_2" target="tSetGlobalVar_2">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="PROCESSING_INDICATOR"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="BATCH_INSTANCE_ID"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="getID"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_2" target="tMSSqlInput_3">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk7"/>
+    </connection>
+    <connection connectorName="FLOW" label="reMap" lineStyle="0" metaname="tMSSqlInput_3" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_3" target="tMap_1">
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="reMap"/>
+    </connection>
+    <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlInput_3" offsetLabelX="0" offsetLabelY="0" source="tMSSqlInput_3" target="TRIGGER_OUTPUT_1">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk8"/>
+    </connection>
+    <connection connectorName="FLOW" label="toContext" lineStyle="0" metaname="toContext" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tContextLoad_2">
+      <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+        <elementValue elementRef="TRACE_COLUMN" value="value"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+        <elementValue elementRef="TRACE_COLUMN" value="key"/>
+        <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+        <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      </elementParameter>
+      <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="toContext"/>
+    </connection>
+    <subjob>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="TRIGGER_OUTPUT_1"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlConnection_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Connection to Framework DB"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Initialise the calling job"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlInput_1"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Batch ID"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFixedFlowInput_2"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Start a session"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlInput_2"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Set Batch Instance ID"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <subjob>
+      <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+      <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMSSqlInput_3"/>
+      <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Set General parameter"/>
+      <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+      <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+    </subjob>
+    <jobletNodes componentName="TRIGGER_OUTPUT" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="160" posY="832" trigger="true">
+      <elementParameter field="TEXT" name="UNIQUE_NAME" value="TRIGGER_OUTPUT_1"/>
+      <elementParameter field="CHECK" name="STARTABLE" show="false" value="true"/>
+      <elementParameter field="CHECK" name="START" show="false" value="false"/>
+      <elementParameter field="TEXT" name="LABEL" value="End"/>
+      <elementParameter field="TEXT" name="HINT" value="&lt;b&gt;__UNIQUE_NAME__&lt;/b&gt;&lt;br&gt;__COMMENT__"/>
+      <elementParameter field="CHECK" name="INFORMATION" value="false"/>
+      <elementParameter field="MEMO" name="COMMENT" value=""/>
+    </jobletNodes>
+  </model:JobletProcess>
+  <TalendProperties:ByteArray/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ed55d431-3997-46cd-bd54-2d5482e06ef8"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CVjTjKhuClXHMn1TOnimKKQP/7CM1D1xQ+PBv8LKgYt6236HseXzsVOcvqXzpGm2Uld8OtDL9gI/
+aAVe1usGzg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_42aae133-40bf-4f05-a7a1-03d13d8ef702"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>OwNVlHHvMiTboCPgjLXSBd5goaXS/DwlOfuypxZiHHiE+neIpU/e7l26f+8HKoiDOxTGyggrKdgj
+KDZjkZUlOQ==</DigestValue></Reference></SignedInfo><SignatureValue>gfY1AENql6fKziFODum6EDBViHduBFo/bAI5wqQgVY2qo0j91YPZGf1ukjgZkLMmZLSr6qvkaUWp
+TOIrR77nRd61nqfbNaZqy10KCWZoU/OPBfkJ+VpaHfumFkd569mX3ez02xAYF3KqhESarrAd6/Mg
+rCO9ZeCcT4UBH6KNB94gSwd19bMJUI33mseF94CIMyug+lch+Ny3rIpw2HsUZ5VhB5++xkEUWS1O
+KGHZstDdDB7rVVFDevH68jFzSy+sM3WT3LxaXAgS6w7G6OBTWQVBV1m9EyoPHC3m22ki2Wv2ws2G
+mdP0sNE22Phk0w0Kceb+lHJYUoh5tBsqPIVTpg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_42aae133-40bf-4f05-a7a1-03d13d8ef702" Target="#_ed55d431-3997-46cd-bd54-2d5482e06ef8"><Timestamp>2018-10-02 03:55:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

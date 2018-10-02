@@ -1,0 +1,15 @@
+package org.talend.survivorship.sample 
+
+rule "a"
+    no-loop true
+    dialect "mvel"
+    ruleflow-group "aGroup"
+when
+    $input : RecordIn( dataset.isLatest( when, "when" ), name matches ".length > 0"  )  
+then
+    dataset.survive( $input.TALEND_INTERNAL_ID, "when", drools.getRule().getName());
+    dataset.survive( $input.TALEND_INTERNAL_ID, "name", drools.getRule().getName());
+
+end
+
+

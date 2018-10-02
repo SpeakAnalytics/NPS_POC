@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="dev" xmi:id="__FHcEMX2EeiddtWt-bq5-A">
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Database" prompt="MT_C_AdventureWorks2014_Database?" promptNeeded="false" type="id_String" value="AdventureWorks2014" xmi:id="__FHcEcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_AdditionalParams" prompt="MT_C_AdventureWorks2014_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="__FHcEsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Server" prompt="MT_C_AdventureWorks2014_Server?" promptNeeded="false" type="id_String" value="acceler20162931.cloudapp.net" xmi:id="__FHcE8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Schema" prompt="MT_C_AdventureWorks2014_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="__FHcFMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Login" prompt="MT_C_AdventureWorks2014_Login?" promptNeeded="false" type="id_String" value="etl" xmi:id="__FHcFcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Password" prompt="MT_C_AdventureWorks2014_Password?" promptNeeded="false" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q==" xmi:id="__FHcFsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Port" prompt="MT_C_AdventureWorks2014_Port?" promptNeeded="false" type="id_String" value="1433" xmi:id="__FHcF8X2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="prod" xmi:id="__FHcGMX2EeiddtWt-bq5-A">
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Database" prompt="MT_C_AdventureWorks2014_Database?" promptNeeded="false" type="id_String" value="AdventureWorks2014" xmi:id="__FHcGcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_AdditionalParams" prompt="MT_C_AdventureWorks2014_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="__FHcGsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Server" prompt="MT_C_AdventureWorks2014_Server?" promptNeeded="false" type="id_String" value="acceler20162931.cloudapp.net" xmi:id="__FHcG8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Schema" prompt="MT_C_AdventureWorks2014_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="__FHcHMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Login" prompt="MT_C_AdventureWorks2014_Login?" promptNeeded="false" type="id_String" value="etl" xmi:id="__FHcHcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Password" prompt="MT_C_AdventureWorks2014_Password?" promptNeeded="false" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q==" xmi:id="__FHcHsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Port" prompt="MT_C_AdventureWorks2014_Port?" promptNeeded="false" type="id_String" value="1433" xmi:id="__FHcH8X2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="uat" xmi:id="__FHcIMX2EeiddtWt-bq5-A">
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Database" prompt="MT_C_AdventureWorks2014_Database?" promptNeeded="false" type="id_String" value="AdventureWorks2014" xmi:id="__FHcIcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_AdditionalParams" prompt="MT_C_AdventureWorks2014_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="__FHcIsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Server" prompt="MT_C_AdventureWorks2014_Server?" promptNeeded="false" type="id_String" value="acceler20162931.cloudapp.net" xmi:id="__FHcI8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Schema" prompt="MT_C_AdventureWorks2014_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="__FHcJMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Login" prompt="MT_C_AdventureWorks2014_Login?" promptNeeded="false" type="id_String" value="etl" xmi:id="__FHcJcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Password" prompt="MT_C_AdventureWorks2014_Password?" promptNeeded="false" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q==" xmi:id="__FHcJsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_AdventureWorks2014_Port" prompt="MT_C_AdventureWorks2014_Port?" promptNeeded="false" type="id_String" value="1433" xmi:id="__FHcJ8X2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1a970cf9-00bf-4d0d-b5ca-87551fcf6cd3"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9V3GonU/cc8zpDuYTuotfxOMFof/dvKJ4ew79I2MgtYe8/Ps0ojhcJQYafk6JBoJ7D6YVUZIT23Q
+Lq1W5o6xeg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_53860b77-02d4-4403-a0b9-d482a75d4a2d"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+qQ2r0XBMguVcZ+4FgXUCbtNxGFbWYj4U0jtckGsXfHEKe/gR2VILIr8iRnCavLRCUlwesyrdqY5
+1qi0y6iLNA==</DigestValue></Reference></SignedInfo><SignatureValue>PK0GX2WRK2q8oPFRDsPgdmYPZ5jtdlez6JXwlziyO65D8Pc3aX0FDhXswtF7jIVAaaD23DSAsRht
+xMI2ILzgg3yc1V2/A9wlajeE3QLXONvwdLlkLXMd/m4aAoN+Y3N1AIOyaYhuTWH3nUKBRXSk+G1e
+frhKkblR7Zv0wWHhN4WoPt1yE8AeoTa/0mHdcFUu5jAf6nH7z4+527EBvqYQzFdj4zgkCykU1SkS
+HMd4jVDPha+xDGGONu6xAooA7ABfsfjFH68dOsikt4GoznULw+39jvnykRj/f68ANwkk0VeN1qDd
+c/QBbcnEmHFQE3fDIFIuE+HVMf5pQipr1SMwaw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
+RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
+LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
+VQQIDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1ImRDEpMCcGA1UEAwwg
+RGVmYXVsdCBjb2RlLXNpZ25pbmcgY2VydGlmaWNhdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDiCz1II/o6hDUWu/ygxTCT2o/fYxVzPW23AoONQC/Vuiqh0COyLIgaMTjBPmQdTQFq
+rmM5tD64gi4TEQF+Z3iYt3daLdQUfaW9SzaMlY+XVNz5xnMBVDuiSHJSFE9lKnhgbKAHvOeoJo46
+UgWwb1za0WpRckDtjKcntwEK1orZCgrcIo1nDvFXyB5n0KfpLyktEOa0bSHde50MPbvQeB66XlEb
+lhjfs5S9WnAUja9RgqdwqZoI0ss+x/pjkQygDT8f17MktM21HOtg09lJlhMGJckhgD7jUF5tfYGM
+sv/O27g5CToFhxOnutDtsrDw7AkEQIml8KJp97bQLAFlLnh1AgMBAAGjge0wgeowHQYDVR0OBBYE
+FFzdy6ZfpUX8JwkM/SUrqkwLNqWAMB8GA1UdIwQYMBaAFOd9C3L8tYGZxoAr2SzsgnMytaj3MAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzAJBgNVHRMEAjAAMHsGCWCGSAGG+EIBDQRu
+FmxEZWZhdWx0IHRoaXJkIHBhcnR5IGNvZGUtc2lnbmluZyBjZXJ0aWZpY2F0ZS4gTm8gY29tbWl0
+bWVudCBpcyBtYWRlIG9uIHRoZSBjb250ZW50IHNpZ25lZCBieSB0aGUgdGhpcmQgcGFydHkwDQYJ
+KoZIhvcNAQELBQADggIBAKzYdnzoFgrRtDLSSzWtwuOrGo5+1RPoDHm/1dlbVnB7oZzUwfRGwZT5
+ser0V7OZyt9wWR8iQ2ka30fHWrNAosNtlIkF88s5YZw7OOIMxR+qYA99BnWLa79DZVIuukI2f5qJ
+Cr9nw6Oygo8CWeNMWhtXcvV4gqROhb2QMBrvWBw9QvNK1XMdtPShfWiXwyPzzRKgwqrN2meXtOY3
+S+MXu6u+RUD9EYeElp9M+9Yp+zRySl5/s+0sbvo7qz369dlsw8XhKXT+s4YQQe3Sx14Kg3SDFXKn
+QcVgycaZMOw4YUxOeP2hKOHnNuOMORfu3qlYkN/0RMGjn6r4PU4+yL276TiWI5b8J06y4leng2as
+r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
+EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
+BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
+6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_53860b77-02d4-4403-a0b9-d482a75d4a2d" Target="#_1a970cf9-00bf-4d0d-b5ca-87551fcf6cd3"><Timestamp>2018-10-02 03:55:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
