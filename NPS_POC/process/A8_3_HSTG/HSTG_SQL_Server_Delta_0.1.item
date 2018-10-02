@@ -16,7 +16,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <context confirmationNeeded="false" name="dev">
     <contextParameter comment="" name="Acceler8_BatchCodeId" prompt="Acceler8_BatchCodeId?" promptNeeded="false" repositoryContextId="_MCdL0HkBEeijjcAbfkO8-A" type="id_String" value=""/>
@@ -35,7 +35,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <context confirmationNeeded="false" name="uat">
     <contextParameter comment="" name="Acceler8_BatchCodeId" prompt="Acceler8_BatchCodeId?" promptNeeded="false" repositoryContextId="_MCdL0HkBEeijjcAbfkO8-A" type="id_String" value=""/>
@@ -54,7 +54,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <context confirmationNeeded="false" name="Test">
     <contextParameter comment="" name="Acceler8_BatchCodeId" prompt="Acceler8_BatchCodeId?" promptNeeded="false" repositoryContextId="_MCdL0HkBEeijjcAbfkO8-A" type="id_String" value=""/>
@@ -73,7 +73,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -131,7 +131,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/afollin/workspace_701/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -324,7 +324,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tMSSqlCommit_1"/>
   </node>
-  <node componentName="Accelr8_ParameterLoader_Instance" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="0">
+  <node componentName="Accelr8_ParameterLoader_Instance" componentVersion="0.2" offsetLabelX="0" offsetLabelY="0" posX="256" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Accelr8_ParameterLoader_Instance_1"/>
     <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
@@ -403,6 +403,10 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
   </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlRow_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_1" target="tMSSqlRow_2">
+    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
   <connection connectorName="FLOW" label="empty2" lineStyle="0" metaname="tMSSqlRow_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_1" target="tJavaRow_2">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
       <elementValue elementRef="TRACE_COLUMN" value="empty"/>
@@ -413,9 +417,9 @@
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="empty2"/>
   </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlRow_1" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_1" target="tMSSqlRow_2">
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlRow_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_2" target="tMSSqlCommit_1">
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
   </connection>
   <connection connectorName="FLOW" label="empty3" lineStyle="0" metaname="tMSSqlRow_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_2" target="tJavaRow_3">
     <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
@@ -426,10 +430,6 @@
     <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
     <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="empty3"/>
-  </connection>
-  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMSSqlRow_2" offsetLabelX="0" offsetLabelY="0" source="tMSSqlRow_2" target="tMSSqlCommit_1">
-    <elementParameter field="CHECK" name="ACTIVATE" show="false" value="false"/>
-    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
   </connection>
   <connection connectorName="TRIGGER_OUTPUT_1" label="OnSubjobOk (End(TRIGGER_OUTPUT_1))" lineStyle="1" metaname="Accelr8_ParameterLoader_Instance_1" offsetLabelX="0" offsetLabelY="0" source="Accelr8_ParameterLoader_Instance_1" target="tJava_1">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
@@ -536,13 +536,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_358c77b2-38fc-499f-a1b1-938990f83f44"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>te8y5UQ/4mh4/tXV/96G7LDXEuiWkH4+Uynk4k6m2M4dsuqIHJEHu+Xt5N8KEKvjJ3ZYRi4BVCJ2
-bUuiNg3TvQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c4aba9a6-c0c4-4a99-adb2-210504c32b92"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TTQ/9aJOyu7dLnsc7qX2CAnYnXWUgrlyUFYxpjLtom76j68kBRVfJs1raH7/kikBB059ruyfSnNQ
-TPS/H/zgOg==</DigestValue></Reference></SignedInfo><SignatureValue>vC/7Ya2skYF1KgQ7gXfxijA/Ac+/nagPs5Qco7kkMPF+P5A47ZmLHJaKXyDLotp5DalVw+7wr1zX
-YeUCtxwjClxgC3VmxUD15r/X0ON8DF7l47W/peRbRdjo7KG79cBE6idX2r3qKDPkdxkVcx/xZ0qv
-v8ntjK1QQqR02MTuEWRxl8kiNtTpoZb3n+9H/Vi5MUI53sbfy4+JcZp2bVuQEPfrxdjUYHDYttRZ
-9yMN6mjBRRn4Bz1z3AA6jtOdKLpX5cP1LSxifQIaPPeR3nrP8gR4kCQ/EdbZ3Msji6jZA+6K5dqM
-yx0cX/OWupRnAzVZ9DIuI2LY2DDlR78xkxXu9w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_99b5d14a-a4c7-4a2a-8e50-6f65cb6ea24d"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>nH7WDBXOJI24ljJDajAZ285hiB+4pIS8b65sIIfAKcfIVaF+O3zZv1u97NAHrqrn7bv9CurV2QRn
+42wrPrxkPg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f7a5c808-bed0-4a12-8f99-ede5a47b5c59"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Xc+bGbXLc6m6wXTO0ZB4JQSaDuK1gOgY+u2gEjxixJWYmIkYTw+rKyTlB17ZFm/mwiguSb6nUOis
+FiwKfLJsMQ==</DigestValue></Reference></SignedInfo><SignatureValue>ADWDAG13hJppx9Ilc30brwIDM+1AKrQO21Uq9lhTAkliMOVRWMbVDuSUI/FZ7CwjQ2YF74QXN1bu
+PP12Sc8ZikvzAzHUtefFGrRtZAlKRfabkO1OMWbXzH6YBzCB2NqL71EkSCuibwMqsllopuUs6+kF
+ZbqB49grsrJ+8Cx4R6y+BoWPZ3OKcREExZkJpelxSUlAJWQTTiNLX84XOejmozZtXiRo1zmeFcdl
+OEYaoZTCG6iq07nhfGUY1HC19+R1ROEXAJ/ier2uvWKrmXXd5FD2+7rWfXiGQFfC59HwyKM8cNIf
+HM7tKbTaHJJfer62NeLecaNYThDGiJ0M9dlAKg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -566,4 +566,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c4aba9a6-c0c4-4a99-adb2-210504c32b92" Target="#_358c77b2-38fc-499f-a1b1-938990f83f44"><Timestamp>2018-10-02 03:55:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f7a5c808-bed0-4a12-8f99-ede5a47b5c59" Target="#_99b5d14a-a4c7-4a2a-8e50-6f65cb6ea24d"><Timestamp>2018-10-02 10:20:08</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

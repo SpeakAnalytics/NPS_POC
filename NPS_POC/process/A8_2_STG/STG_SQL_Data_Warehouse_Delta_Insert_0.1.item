@@ -16,7 +16,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <context confirmationNeeded="false" name="dev">
     <contextParameter comment="" name="Acceler8_BatchCodeId" prompt="Acceler8_BatchCodeId?" promptNeeded="false" repositoryContextId="_MCdL0HkBEeijjcAbfkO8-A" type="id_String" value=""/>
@@ -35,7 +35,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <context confirmationNeeded="false" name="uat">
     <contextParameter comment="" name="Acceler8_BatchCodeId" prompt="Acceler8_BatchCodeId?" promptNeeded="false" repositoryContextId="_MCdL0HkBEeijjcAbfkO8-A" type="id_String" value=""/>
@@ -54,7 +54,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <context confirmationNeeded="false" name="Test">
     <contextParameter comment="" name="Acceler8_BatchCodeId" prompt="Acceler8_BatchCodeId?" promptNeeded="false" repositoryContextId="_MCdL0HkBEeijjcAbfkO8-A" type="id_String" value=""/>
@@ -73,7 +73,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -131,7 +131,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/afollin/workspace_701/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -318,7 +318,7 @@
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tSQLDWHCommit_1"/>
   </node>
-  <node componentName="Accelr8_ParameterLoader_Instance" componentVersion="0.1" offsetLabelX="0" offsetLabelY="0" posX="384" posY="0">
+  <node componentName="Accelr8_ParameterLoader_Instance" componentVersion="0.2" offsetLabelX="0" offsetLabelY="0" posX="384" posY="0">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="Accelr8_ParameterLoader_Instance_1"/>
     <elementParameter field="TEXT" name="FAMILY" value="Joblets"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="true"/>
@@ -527,13 +527,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_75884f6b-4acf-43cc-8862-39a1f129d7a4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>aUjbrNxfpzH3eyHSOTwDNDlQzs38FFyIiXu30R0VdUwgZHRmQ1XGif0Y57UNhYb9NXl9bgC5ufPb
-4VEAeLH25Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c467e8ab-ed56-4f38-8770-755bbb51999c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>up0Ggvt51w7wrQAHd/1/Piy7f0pVyjOONimoTTr9xwAx0VkfDBAcYLHQNri/O7f6mIsqNTHy3d13
-o/TJ2b1qZg==</DigestValue></Reference></SignedInfo><SignatureValue>K/uB3uqm80ZwLENMkQxhnJWrDIire67Smq6FYKpcrj8V7ehejPFX4fj83QoOA4I/y4YJcCoD3bjy
-Ctjb8rkq7Pt8YFH9zph6YujXHCUgxhMTgBKQfeiQYQDk1qvPGPceOhR2Py04ntKPPj1aBEjgyqQ+
-jS6ZuTPXEVzBFGsnkakv1JbrLlZ9qgPaSHxgA33Cr9+4NIZb2TPhwQXC+IpyQK25RnbMUgOzoWKF
-nCM0x7BgGt0GzOBjL16ioYgWjNchhBAYMMjkAIVF9a7CA9MFIBCY0AMYApGWSMKF/JTyDRHYX+Yf
-OZ2dERrpbC3lASA/XuyE65cPPt0DCUux6/AlIw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_8ab15eb8-09de-4abc-a995-68d2f06e3349"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>by0l7jVtcAjBpKOTlVPFBaLsRuKwX1TVtRpjfkrxLYqUetN1K6im3YKBiJS71wtwiEmb56nGDrhG
+vKJ+Pn7t7g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c629229e-a306-4b0c-b68f-44515bef2df9"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>AfmFkD3P27CgaXmYZvKBRf3rnJWNNlPzvaB6IPCp3k4vC/YQAmKAbgR/KSGH7f6DV0pZL455unhF
+7SEAz+eRYw==</DigestValue></Reference></SignedInfo><SignatureValue>gZrb3VhD09wsh94dpJZCyhparD8aA50csRbK/YLp1UpiD67beFIZs/o2cnvZIsQ3S6rqp8HMrP0G
+zoTerqGvGTpimaY1RZ+lNW4FbdYPGqPo7+lRC6E41Xgg1p3+IJHweqRZsGTc/KIwil7bIyrHWMxk
+oe2NBsmiLYffBkoJZC8pbBjG8LeLB60CA+5HFJg/YdjsXU6Bch0AY85qV3d+n75S33F0JPQr4OAq
+nVWR36WmrcSt11IwGLCF34caC1slmuJmMVK/xs5+nCFY+hWPLBvI/xC3qldldrawzQAwQ7IWxlvY
+/06xugSa9JTI/aUXa7pjRFIOoUzPDU3iiPIGFA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -557,4 +557,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c467e8ab-ed56-4f38-8770-755bbb51999c" Target="#_75884f6b-4acf-43cc-8862-39a1f129d7a4"><Timestamp>2018-10-02 03:55:23</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c629229e-a306-4b0c-b68f-44515bef2df9" Target="#_8ab15eb8-09de-4abc-a995-68d2f06e3349"><Timestamp>2018-10-02 10:20:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

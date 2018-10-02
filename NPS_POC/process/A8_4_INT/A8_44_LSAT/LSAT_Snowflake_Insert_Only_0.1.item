@@ -15,7 +15,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="a8nps.ap-southeast-2"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
@@ -41,7 +41,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="a8nps.ap-southeast-2"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
@@ -67,7 +67,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="a8nps.ap-southeast-2"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
@@ -93,7 +93,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="a8nps.ap-southeast-2"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
@@ -119,7 +119,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="a8nps.ap-southeast-2"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
@@ -559,13 +559,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;128"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;177;140"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3ce591b0-6c97-4ed9-9e0d-f0c5bfd08310"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>57JfnGWeQJa795b/5+JBcBYfd6xFlbchUPgy0kwpXOMabIQ7be5YsPFxWvIDFJ6f7qEHElCBmGCs
-+npV6Ez+jQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_2f261e83-6cc8-450a-aeff-e6ba8f295b7b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>UTkzem0Zwi90C3IvwudM9xZWqh8AKfBUopYcnXvuxwPUryg6cacbBfL+OwFj5o+oMC4FoE9EGp8L
-BZo+r0zMjg==</DigestValue></Reference></SignedInfo><SignatureValue>Ul1skV1DwVYbB3pwTiXD2ylefbaOC3iVkiYLmbgdyT+mY7h7HUQluWYcQ1URL9pCKWBK7EZwuYqh
-pDyZ5xp20ncxuDjwx0yixvLD0cOychXBGUH3ZQRPeReKOWQ8sehgbjTS7AQ9LniPjz8KYaG6frVR
-cH9NlbUmM0N0rnEjGQKm82VMFSfctCWTX8CBASWb0M003vIkSU7xR64H4we82CBXH/0wG3wIwIpb
-TKxD9RnuLx/Je//Au2OVZ/XTDVy2miWubETOIXJeqkiYu+7oUil6oGq9Fx6j0PKBQMsOQrUkzWET
-rhcJt9lgdMQ+pe8Pggmgwcgi2q1bREt5MBCg6A==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4a98d8df-e06f-40b5-87ef-f22e2855947b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>J20zRsp65dkQtpicKPI5bqGTQpZxw+FFHUzDGkzTKiBXdfs3j5YCxJNSltbVUbN/lOma8qFI1WEG
+dynu1MyT1g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f26847b4-e0b7-4457-b9a0-fa9a3f0f3b85"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>q/+JZ5Bt5GQI0oHDOmIBflyyw1s7pAfAjxkpF2JGrL7jqkIptS7tzfl4x8OBTeZXpL1JSRhtGmNN
+G97J3nVZXA==</DigestValue></Reference></SignedInfo><SignatureValue>3aQsvsTTi7KwdjvZvSWMt+ivmFi7eRtLr0dFDIT5qieiG38eOfc8X5LankJ2mu9F39oL3j67zHv5
+SJKSxNIU4yLI0GzGsZK+cUl73UXQ42L91mqejpzPFJyiUhEdUX1ZbN1zFTfH3fF0xzV973Sklqe4
+ThukYrjrn2Y8lNyjbiddlW1tyNJakQ7ctzdOEzWLUIrjQCauNYPs4cKIk71vO/y+uWzMJm5jpUlZ
+BxOZdS254n+hRfnM2xqxF4LRavjrHUwoJyDW9Pr4NrpDNd1UEDCth+jgDiW3HwugRC7y9zHp78ZA
+mDzofQS+VBVswJyiNCPeHpyqK4lQi/UXdfx0eg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -589,4 +589,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_2f261e83-6cc8-450a-aeff-e6ba8f295b7b" Target="#_3ce591b0-6c97-4ed9-9e0d-f0c5bfd08310"><Timestamp>2018-10-02 09:30:47</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f26847b4-e0b7-4457-b9a0-fa9a3f0f3b85" Target="#_4a98d8df-e06f-40b5-87ef-f22e2855947b"><Timestamp>2018-10-02 10:20:11</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

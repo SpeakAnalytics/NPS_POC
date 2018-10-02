@@ -10,7 +10,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
   </context>
   <context confirmationNeeded="false" name="dev">
@@ -24,7 +24,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
   </context>
   <context confirmationNeeded="false" name="uat">
@@ -38,7 +38,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
   </context>
   <context confirmationNeeded="false" name="Test">
@@ -52,7 +52,7 @@
     <contextParameter comment="" name="EDW_900_OMD_Framework_Password" prompt="EDW_900_OMD_Framework_Password?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_Password" value="aBiZ9xxYRSsmb/f1dSBW7Q=="/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Port" prompt="EDW_900_OMD_Framework_Port?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="1433"/>
     <contextParameter comment="" name="EDW_900_OMD_Framework_Schema" prompt="EDW_900_OMD_Framework_Schema?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="dbo"/>
-    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="acceler8-demo3274.cloudapp.net"/>
+    <contextParameter comment="" name="EDW_900_OMD_Framework_Server" prompt="EDW_900_OMD_Framework_Server?" promptNeeded="false" repositoryContextId="_K-TOwGSKEeiufZeuOqz-XA" type="id_String" value="ec2-52-62-215-95.ap-southeast-2.compute.amazonaws.com"/>
     <contextParameter comment="" name="Acceler8_START_DATETIME" prompt="Acceler8_START_DATETIME?" promptNeeded="false" repositoryContextId="_dOOM8GS4EeifEN3912yNVw" type="id_Date" value=""/>
   </context>
   <parameters>
@@ -111,7 +111,7 @@
     <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
     <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
     <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
-    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/Users/afollin/workspace_701/.metadata&quot;"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/workspace/.metadata&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
     <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
@@ -556,13 +556,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_38f642e9-71be-470e-beea-fbc283d70898"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Rf8UmKab2xxhxHYYeVxVYHRuz+3ZmTm3N0x2LNhGF+gK3WgvPP/OjZ7ZwrE7pIHiV8Oe5xphg3i5
-osU4ffw3cw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_8f1b6be3-f30c-49b9-8b5e-6c22ec1f3db2"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>0hEtk/s/ih+DannOMDnliMmT7uuymInhXtVHArGL1K4Bepw0Xr6YQQfg4ZcpwYbpuAROpn0+hPPf
-/o8j9snxiQ==</DigestValue></Reference></SignedInfo><SignatureValue>ilWDa5DOE4TCpsOT0ZaFsEZ/Q9Fcv//dOmA8Oh8a6V+i2tDEmbOhALVgJZKJe3shSR4H34++8u7V
-x5yaoQwS7aT9e8BFHq6qIIx31W19uuI2KnFxEqNuQnp2kZFbtmQMycn1gXe4+gA7U5+6tceWFCJs
-klJRrT6hdt5Kan0iCOSoqLrHGpiNSlRlRYIp+RUAAm7onGjhr4kbniFtEUqDhHrAh6HLDaWMgwNE
-UbyXMj5ZdTmEtgF6z51ee3A5rX+SpsNAA52/Ow6ARTeMVUMDtSrQSWcjf5b7obCyZ7/rjF0gwnZY
-jpuWfKX4QZmPm3s+P1//kcX+JRuuGHjANLHRAw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_b9845044-c65d-4b4e-8384-54111ec32e68"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>uE3+NkFqQWvGMe6yHDPE+T3LyKMQ/Ra5mmSodUJjZ3oiFQxHjbVHHoXuXct2km4S5r6nyvluDWpe
+6Ux45arujQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c39daa9b-8eed-4e11-ae53-5bf6a695609f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ymh3I4h6L35b1o2ugnkzAMdbvhPLeUKQ/JzQQjzdqGDrGHbtsOdVdNS1zKC4kurY+Wd7F7DVzDZ2
+Zh1VI9ixvQ==</DigestValue></Reference></SignedInfo><SignatureValue>BoyB5EOqmf3JpFMBEC7/1AHBQckBBy8pJCE/AXMGia4iXlQk/+JygOXzxjI+3/m41g1dfd5ZkYpa
+0iXwTn4PAcXhC5R1a6IVCkFQOUZ72YRL4xaIjQJ13JLEw0Hr76u4W4nLpZG/xmb+PoRGGD29wVLk
+IocM5gqPqAGvT/mtZwse0sh0TkLMYf3hYNZlV7iU17KMEFldZOgGQnTyrg4b6xL6BdIJok8dvYtZ
+W0uAg189qj9zVZyGKV7x9aM1DV5rvZirP6yNoYCsXzcmaWX8jv7ironXiJRI1ot7JsxZNvO9h5Yw
+YUvL49VduAUqJZ14enZsnMX8trn+YhBNlcWgsQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -586,4 +586,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_8f1b6be3-f30c-49b9-8b5e-6c22ec1f3db2" Target="#_38f642e9-71be-470e-beea-fbc283d70898"><Timestamp>2018-10-02 03:55:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c39daa9b-8eed-4e11-ae53-5bf6a695609f" Target="#_b9845044-c65d-4b4e-8384-54111ec32e68"><Timestamp>2018-10-02 10:20:09</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
