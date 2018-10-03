@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_JVFsgcX2EeiddtWt-bq5-A" label="NPS_POC" description="Snowflake and Talend PoC" language="java" technicalLabel="NPS_POC" author="_JVFsgsX2EeiddtWt-bq5-A" productVersion="Talend Cloud Data Management Platform-7.0.1.20180712_0921-patch" url="{&quot;location&quot;:&quot;https://github.com/SpeakAnalytics/nps_poc.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+  <TalendProperties:Project xmi:id="_JVFsgcX2EeiddtWt-bq5-A" label="NPS_POC" description="NPS Data Warehouse PoC on Talend, Snowflake and Acceler8." language="java" technicalLabel="NPS_POC" author="_JVFsgsX2EeiddtWt-bq5-A" productVersion="Talend Cloud Data Management Platform-7.0.1.20180712_0921-patch" url="{&quot;location&quot;:&quot;https://github.com/SpeakAnalytics/nps_poc.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
     <technicalStatus xmi:id="_LrrJYMX2EeiddtWt-bq5-A" label="development" code="DEV"/>
     <technicalStatus xmi:id="_LrrJYcX2EeiddtWt-bq5-A" label="testing" code="TEST"/>
     <technicalStatus xmi:id="_LrrJYsX2EeiddtWt-bq5-A" label="production" code="PROD"/>
@@ -1277,4 +1277,7 @@
     <migrationTask xmi:id="_MHkch8X2EeiddtWt-bq5-A" id="org.talend.repository.model.migration.AutoUpdateRelationsMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_JVFsgsX2EeiddtWt-bq5-A" login="amcguinness@eval11312.talend.com" firstName="Adam" lastName="Mcguinness" type="DQ"/>
+  <TalendProperties:User xmi:id="_js5oUcanEeijz9S-ZJrBLw" login="amcguinness@eval11330.talend.com" firstName="Adam" lastName="Mcguinness" type="DQ"/>
+  <TalendProperties:User xmi:id="_js5oUsanEeijz9S-ZJrBLw" login="idavis@eval11330.talend.com" firstName="Isaac" lastName="Davis" type="DQ"/>
+  <TalendProperties:User xmi:id="_js5oU8anEeijz9S-ZJrBLw" login="amcguinness@eval11330.talend.com" firstName="Adam" lastName="Mcguinness" type="DQ"/>
 </xmi:XMI>
