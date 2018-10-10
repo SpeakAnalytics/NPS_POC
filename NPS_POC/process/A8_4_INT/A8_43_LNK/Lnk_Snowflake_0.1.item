@@ -20,7 +20,7 @@
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="SYSADMIN"/>
-    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="STG"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="INT"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q=="/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="mvanschalkwyk"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="LOAD_WH"/>
@@ -46,7 +46,7 @@
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="SYSADMIN"/>
-    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="STG"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="INT"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q=="/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="mvanschalkwyk"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="LOAD_WH"/>
@@ -72,7 +72,7 @@
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="SYSADMIN"/>
-    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="STG"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="INT"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q=="/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="mvanschalkwyk"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="LOAD_WH"/>
@@ -98,7 +98,7 @@
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="SYSADMIN"/>
-    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="STG"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="INT"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q=="/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="mvanschalkwyk"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="LOAD_WH"/>
@@ -124,7 +124,7 @@
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="NPS_POC"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Integer" value="1"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="SYSADMIN"/>
-    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="STG"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="INT"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q=="/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="mvanschalkwyk"/>
     <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" repositoryContextId="_6MN7YGS6EeiOoqxdbP3_WA" type="id_String" value="LOAD_WH"/>
@@ -563,13 +563,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="255;128;128"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="255;177;140"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_f103d2e0-f938-40d3-a468-963283831549"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>/hZwZGI5OJ6gn/MMQpP/+BTJr4DDkNmz1YoP1lYdV8EIuD0STBi+0BuMkPM2Ico3I2dvfphUXfNt
-6BqIqWgJSA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ff7795e4-e9b8-466f-9249-cb1bb7eb2491"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WbH8Z0bwkmzLxkw1jL12K5x5rlO5U7NHoRSvpG+KSoU61moorMA1Dyep9rWp8FmvRQqTCcukw37y
-hJ7wSvL3oQ==</DigestValue></Reference></SignedInfo><SignatureValue>WoKT46QdrxaVgLytIpJB79ZQotZmzlSBjBEjPnxUyvCG8/ocuOXBpTWpYkeVaFm0SI8NyVDpoSPp
-jnV66Agcz5kXBJQQwE+lWfKAXqalX6BehhOWYtyLRj6hXSI4UC9rkRSCX2NMXxOya53RuB4eq7+C
-ezSzN9ICAFnmUU7NW+iwGZIzXiM2bvips3eWMz6aah/GoksriuMt/ZHEfHVOLAdjwxJzmIi2xBfd
-4t1vQaVb14R7kLvhFoeEg0bk5fpd97BISwme3dQnlcWy1CWp78sX/ycB7gs0uDG3rOJMcIu9vonm
-RdI7iRiG2xiJHpJbgs0viZvMhB6peaFn5UV7fw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_98c3ad2b-a9ba-40bb-b81d-b0881342514b"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>b26wAJSuOT5oFmb+keHwHimiFr7tH9j+sLgVXT1EZeJrI3SksYFK02iDctG4Atj2qLEf+siS/riI
+0RfwwqwRfA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3637cc1a-fa9f-456a-a5c4-c6f5a3afe14b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>tyvSSPylt+V/SmxpKYIpsMSyzY0qhHxh4rGyI0AreQEYAVdI7o5SUb2MK+kkUSGncfVMJyK/XSR7
+QznXT38GwA==</DigestValue></Reference></SignedInfo><SignatureValue>ltdRm09fmThOlzZv4YptoTuVnXsCjMTwm+la+KQneeUm4yNXsWVKylrBrjsMQcCM7ctDc5eE9twY
+QfkFMdbPSyhk3EfYqOTSHPhF2olGa8DVvJcz3wdvj9FBY4a/C3fxlGAuUpWHm2l8T6HwRi+5K3Dc
+VR71mWyozcl5yP4qVCvC7nkVc6FV2cm6Z0rLQZbEY4XIWEFZ9J7PiBphMxE1BN8WT4QD5J6rfq94
+17rw+RmoVTL2diC1rENwbTZQxwK2Khmi19ayKAgj2B+KI39mzY3ZAhxz4aYobQrmbIOFsM9oz+w0
+ZjhGLNYN/+EiPslF66e++3Nf36a43wbKgNjp6Q==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -593,4 +593,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ff7795e4-e9b8-466f-9249-cb1bb7eb2491" Target="#_f103d2e0-f938-40d3-a468-963283831549"><Timestamp>2018-10-02 10:20:03</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3637cc1a-fa9f-456a-a5c4-c6f5a3afe14b" Target="#_98c3ad2b-a9ba-40bb-b81d-b0881342514b"><Timestamp>2018-10-10 03:30:18</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
