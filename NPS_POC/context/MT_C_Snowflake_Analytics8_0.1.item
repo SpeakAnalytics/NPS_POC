@@ -1,19 +1,31 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="__FaXAMX2EeiddtWt-bq5-A" xmi:version="2.0">
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" type="id_String" value="a8nps.ap-southeast-2" xmi:id="__FaXAcX2EeiddtWt-bq5-A"/>
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" type="id_String" value="INT" xmi:id="__FaXAsX2EeiddtWt-bq5-A"/>
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" type="id_Integer" value="1" xmi:id="__FaXA8X2EeiddtWt-bq5-A"/>
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q==" xmi:id="__FaXBMX2EeiddtWt-bq5-A"/>
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" type="id_String" value="LOAD_WH" xmi:id="__FaXBcX2EeiddtWt-bq5-A"/>
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" type="id_String" value="mvanschalkwyk" xmi:id="__FaXBsX2EeiddtWt-bq5-A"/>
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" type="id_String" value="NPS_POC" xmi:id="__FaXB8X2EeiddtWt-bq5-A"/>
-  <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" type="id_String" value="SYSADMIN" xmi:id="__FaXCMX2EeiddtWt-bq5-A"/>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_ff44605e-c266-4dd0-8dbb-ff16a1b503d0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>fzbNxnRr/Yf7azOXKrBmZuZHaJ+hGr3zb0D3cXWduLrdbkIGxDyUAySQRi1lQXU5mAhpGO5XgbdA
-J3Pr+mZfxg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_cb293722-86d2-401e-b2c3-2f017878548f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>1tJ1auDomaF+ldfJjgs2eXxg1gl936iB36Orf0YksuuBovca0f4bPsanMeSvfhiWkW3okxItyGrO
-5FkB0bn6UA==</DigestValue></Reference></SignedInfo><SignatureValue>1fsLGlISkjnawFR5vUBqoJH05aSU0I72MeSmkQaACTSnUMMelIzJYEI1Hy6w1cXrfMyzQb+0bcV3
-WDN+7Y3ajA1OIdjdaq6snVAnNk1FoNy2mWpEKpAIqzyk33potJ+A27Sr4yd1VCJ+hQ+7BFRJzkbS
-MzJntHXfKV4IGqUe/8/7ltvC0HmDXYmwV54YpihCTJKYBPe8NLzlSzMm4o9KqJT9SjlJYjVjtt2N
-Z7JrwAa5sQQ4hTtMMT5765nojfBC8QSLRiZ9kZtMxkM2vtQUaBleQWz95/teXlYF608iM8fF9DhY
-5R6pizdZ52WSb0KBv9GQri7g7H5T365PyHWV8w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="__FaXAMX2EeiddtWt-bq5-A">
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" type="id_String" value="a8nps.ap-southeast-2" xmi:id="__FaXAcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" type="id_String" value="INT" xmi:id="__FaXAsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" type="id_Integer" value="1" xmi:id="__FaXA8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q==" xmi:id="__FaXBMX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" type="id_String" value="LOAD_WH" xmi:id="__FaXBcX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" type="id_String" value="mvanschalkwyk" xmi:id="__FaXBsX2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" type="id_String" value="NPS_POC" xmi:id="__FaXB8X2EeiddtWt-bq5-A"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" type="id_String" value="SYSADMIN" xmi:id="__FaXCMX2EeiddtWt-bq5-A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_YYDNsMw-EeibmPLqjiuxbA">
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_account" prompt="MT_C_Snowflake_Analytics8_account?" promptNeeded="false" type="id_String" value="a8nps.ap-southeast-2" xmi:id="_YYDNscw-EeibmPLqjiuxbA"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_schemaName" prompt="MT_C_Snowflake_Analytics8_schemaName?" promptNeeded="false" type="id_String" value="INT" xmi:id="_YYDNssw-EeibmPLqjiuxbA"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_loginTimeout" prompt="MT_C_Snowflake_Analytics8_loginTimeout?" promptNeeded="false" type="id_Integer" value="1" xmi:id="_YYDNs8w-EeibmPLqjiuxbA"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_password" prompt="MT_C_Snowflake_Analytics8_userPassword_password?" promptNeeded="false" type="id_Password" value="QfI1xA+mS0g1M1XOmGyb6Q==" xmi:id="_YYDNtMw-EeibmPLqjiuxbA"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_warehouse" prompt="MT_C_Snowflake_Analytics8_warehouse?" promptNeeded="false" type="id_String" value="LOAD_WH" xmi:id="_YYDNtcw-EeibmPLqjiuxbA"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_userPassword_userId" prompt="MT_C_Snowflake_Analytics8_userPassword_userId?" promptNeeded="false" type="id_String" value="mvanschalkwyk" xmi:id="_YYDNtsw-EeibmPLqjiuxbA"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_db" prompt="MT_C_Snowflake_Analytics8_db?" promptNeeded="false" type="id_String" value="NPS_POC" xmi:id="_YYDNt8w-EeibmPLqjiuxbA"/>
+    <contextParameter comment="" name="MT_C_Snowflake_Analytics8_role" prompt="MT_C_Snowflake_Analytics8_role?" promptNeeded="false" type="id_String" value="SYSADMIN" xmi:id="_YYDNuMw-EeibmPLqjiuxbA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a9a44580-5eeb-4d0e-9a9a-4849896c6670"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>QO54DQD9xnmiMfAoM86v76KQXwHqfRoLHmWf8Dc+ChLlp9EQpMrcxGfw3gieqSsKiAvcybPcL3fN
+evL9rZapSQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0a44efbf-ac64-43ba-b2be-1276d47b453b"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>9J9kfP9eT2RE5/t/O7l+gNVdMrRjRY/Bvz6eiWDytRF1eIwE/Gcw8iRqSPapI9xOc/MPW6X/VvrU
+TZtIGzN79Q==</DigestValue></Reference></SignedInfo><SignatureValue>3TDwo8H2Gfq29fYMWxB4T/BTTmDbbESlT1vBHmLEAH+mJSmbzwZBSaR/JnODgfhYGEbL1blcm+Jv
+FymP1zFTEEKwQf/lBHUjcljyL2EozxgCr3r9T7/AyO0Y/KTU5Kjz7o5psSm5AOXcpX7oBBwr0zEc
++GkN2yVhsFNQrgfbesUwqe32isq1yu7MzvNArEk+65fcAZKhlRNNdKbTGV+MUVt9iOpkoMC/rYjb
+g44CM+segTkZIAM2zH/o6y0dBv73AKxsu97JjxFPhgV8CIL3/40vUD9kZUn3kprIORkVBu6BUt9h
+1HbSirFuyDvFSAGMs6P0Z3zAIFIRFADG0XNqgg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>CN=Default code-signing certificate,OU=R&amp;D,O=Talend Inc.,ST=Paris,C=FR</X509SubjectName><X509Certificate>MIIFYzCCA0ugAwIBAgIBATANBgkqhkiG9w0BAQsFADCBjTELMAkGA1UEBhMCRlIxDjAMBgNVBAgM
 BVBhcmlzMQ4wDAYDVQQHDAVQYXJpczEUMBIGA1UECgwLVGFsZW5kIEluYy4xDDAKBgNVBAsMA1Im
 RDEWMBQGA1UEAwwNVGFsZW5kIFImRCBDQTEiMCAGCSqGSIb3DQEJARYTc2VjdXJpdHlAdGFsZW5k
 LmNvbTAeFw0xODAxMTgwMDA2MTJaFw0yMTAxMTcwMDA2MTJaMGwxCzAJBgNVBAYTAkZSMQ4wDAYD
@@ -37,4 +49,4 @@ r3/fbKJ02Ni9kCnkY8wQS1yn45UNl1woSjryza4f4uLKGkrrIsUPXK+Vy4A1Il8XgFfmrtgA8m9s
 EHyu0OyAJH/agWN+GLhF/ssp26oXhiYqTkG4sQtNRFQG0isaYf/JWSt3f8Q+7/pnZpz4mfEAFimI
 BBLzRwDA6x9qqOn0RXxBo9pH16EO3SXPLR64cJum8B/RI/i8H6OkQDO1tEiE6UeceZk++U7fnD3c
 6i9Km85GTgQi6REsVZGIL/tZNIzN//qPwi7cDo3Cf/xmPrIKQhHJaxCqmbjGDmC8AXOaqNfWotVX
-Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_cb293722-86d2-401e-b2c3-2f017878548f" Target="#_ff44605e-c266-4dd0-8dbb-ff16a1b503d0"><Timestamp>2018-10-10 03:30:22</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>
+Wy2dcglW62PDszE/HKh9</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0a44efbf-ac64-43ba-b2be-1276d47b453b" Target="#_a9a44580-5eeb-4d0e-9a9a-4849896c6670"><Timestamp>2018-10-10 03:41:33</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>
